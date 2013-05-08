@@ -1,15 +1,16 @@
 {
-  "name": "{{hoodie_appname}}",
+  "name": "hoodie-invoice",
   "version": "1.0.0",
   "type": "app",
   "dependencies": {
     "hoodie-app": "git://github.com/hoodiehq/hoodie-app.git",
-    "worker-users": "git://github.com/hoodiehq/worker-users.git"
+    "worker-users": "git://github.com/hoodiehq/worker-users.git",
+    "worker-email-out": "git://github.com/hoodiehq/worker-email-out.git"
   },
-  "subdomain": "hoodie-{{hoodie_appname}}",
+  "subdomain": "hoodie-invoice",
   "domains": [
-    "admin.hoodie-{{hoodie_appname}}.jit.su",
-    "couch.hoodie-{{hoodie_appname}}.jit.su"
+    "admin.hoodie-invoice.jit.su",
+    "couch.hoodie-invoice.jit.su"
   ],
   "scripts": {
     "start": "node node_modules/hoodie-app/bin/start"

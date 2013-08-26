@@ -3,9 +3,9 @@
   "version": "1.0.0-3",
   "type": "app",
   "dependencies": {
-    "hoodie-app": "git://github.com/hoodiehq/hoodie-app.git",
-    "worker-users": "git://github.com/hoodiehq/worker-users.git",
-    "worker-email-out": "git://github.com/hoodiehq/worker-email-out.git"
+    "hoodie-app": "git://github.com/hoodiehq/hoodie-app.git#b4b9c43c6acbf33f60a04f2ad9f221c1e48ac0f5",
+    "worker-users": "git://github.com/hoodiehq/worker-users.git#e43620bb7c948577582c33bf85f5eeae86e75e02",
+    "worker-email-out": "git://github.com/hoodiehq/worker-email-out.git#b2572a093cb35d68fb92973b31deee858d06950c"
   },
   "subdomain": "hoodie-invoice",
   "domains": [

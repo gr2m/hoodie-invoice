@@ -17,5 +17,6 @@
   },
   "engines": {
     "node": "0.8.x"
-  }
+  },
+  "repository": "github:gr2m/hoodie-invoice"
 }
